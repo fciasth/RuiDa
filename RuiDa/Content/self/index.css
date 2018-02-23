@@ -129,3 +129,15 @@ a {
     font-weight: normal;
     font-family: "微软雅黑";
 }
+.menulef h5 a{
+    color: #FFF;
+}
+.menulef p {
+    width: 80px;
+    float: right;
+    text-align: right;
+}
+.menulef p a {
+    color: #4c4c4c;
+    padding-right: 2px;
+}
