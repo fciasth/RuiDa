@@ -1,0 +1,131 @@
+﻿main {
+    clear: both;
+    padding-top: 25px;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+/*左侧栏样式*/
+.m-left {
+    width: 286px;
+    float: left;
+    margin-right: 30px;
+}
+/*左一*/
+.m-left .tip-pic {
+    height: 270px;
+    overflow: hidden;
+}
+.m-left .tip-pic ul li {
+    width: 274px;
+    height: 24px;
+    overflow: hidden;
+    line-height: 24px;
+    vertical-align: top;
+    font-size: 14px;
+    background: url(../img/list1.jpg) no-repeat left center;
+    padding-left: 12px;
+}
+.m-left .tip-pic ul li a {
+    color: #333;
+}
+.m-left .tip-pic ul li a:hover {
+    color: #c00;
+}
+.m-left .tip-pic .pic{
+    width: 286px;
+    height: 198px;
+    overflow: hidden;
+}
+/*介绍*/
+.m-left .intor{
+    margin-top: 18px;
+    height: 295px;
+    width: 286px;
+    overflow: hidden;
+}
+.m-left .intor .menulun{
+    background: url(../img/biao1.jpg) no-repeat left center;
+    height: 22px;
+    overflow: hidden;
+    line-height: 22px;
+    padding-left: 30px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #010101;
+}
+.m-left .intor .mentab{
+    height: 24px;
+    width: 286px;
+    overflow: hidden;
+    border-bottom: #b3b3b3 1px solid;
+    font-family: "微软雅黑";
+    margin-top: 10px;
+}
+.mentab ul li{
+    color: #FFF;
+    background: url(../img/intab1.jpg) no-repeat;
+    width: 80px;
+    height: 24px;
+    overflow: hidden;
+    float: left;
+    margin-right: 6px;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+}
+.mentab ul li a {
+    color: #FFF;
+}
+.mluncon {
+    width: 286px;
+    height: 215px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.mluncon .tuimg {
+    width: 284px;
+    height: 72px;
+    border: #d5d5d5 1px solid;
+    margin-bottom: 3px;
+}
+.mluncon .info{
+    width: 286px;
+    height: 140px;
+    overflow: hidden;
+    color: rgb(51, 51, 51);
+    font-family: 微软雅黑, YaHei, 宋体;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+    
+/*新闻动态*/
+.m-left .news {
+    width: 340px;
+    width: 286px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.m-left .news  .menulef {
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 286px;
+    height: 26px;
+    overflow: hidden;
+}
+.menulef h5 {
+    width: 80px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 18px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
