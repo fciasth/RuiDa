@@ -141,3 +141,35 @@ a {
     color: #4c4c4c;
     padding-right: 2px;
 }
+.innews {
+    width: 286px;
+    height: 223px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.inlone {
+    height: 98px;
+    width: 286px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.inlone .tit1 {
+    height: 25px;
+    width: 286px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.inlone .tit1 a {
+    color: #333;
+    width: 286px;
+    display: block;
+}
+.inlone .cont dl dt img {
+    width: 95px;
+    height: 66px;
+    overflow: hidden;
+}
+.inlone .cont {
+    height: 70px;
+    overflow: hidden;
+}

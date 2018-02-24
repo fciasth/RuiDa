@@ -15,6 +15,9 @@ body {
     font-size: 12px;
     font-family: "微软雅黑","YaHei","宋体";
 }
+img {
+    border: none;
+}
 /*导航*/
 header {
     width: 100%;
