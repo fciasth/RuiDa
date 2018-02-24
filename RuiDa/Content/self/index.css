@@ -341,3 +341,62 @@ dd {
     float: right;
     color: #333;
 }
+.cen-1{
+    height: 310px;
+    width: 437px;
+    overflow: hidden;
+}
+.cen-2 {
+    height: 275px;
+    width: 437px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.mencen1 {
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 437px;
+    height: 26px;
+    overflow: hidden;
+}
+.lunbnei {
+    height: 85px;
+    clear: inherit;
+    overflow: hidden;
+    width: 437px;
+    margin-top: 18px;
+    padding-bottom: 7px;
+}
+.lunbnei .left {
+    width: 115px;
+    float: left;
+    margin-right: 13px;
+}
+.lunbnei .right {
+    width: 306px;
+    float: left;
+}
+.lunbnei .right .tit {
+    height: 25px;
+    width: 306px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #333;
+}
+.lunbnei .right .tit a {
+    color: #333;
+}
+.lunbnei .right .cont {
+    height: 46px;
+    color: #787777;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.lunbnei .right .cont a {
+    color: #9c0000;
+}
+.lunbnei .right .cont a:hover{
+    color: #C00;
+}
+.shte .cont a:hover{
+    color: #C00;
+}
