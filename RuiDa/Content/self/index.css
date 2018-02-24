@@ -225,3 +225,119 @@ dd {
 .jiaonews ul li a:hover {
     color: #C00;
 }
+
+
+/*中间栏*/
+.m-center{
+    width: 437px;
+    float: left;
+    margin-right: 30px;
+}
+
+.m-center .cen-1 .mencen1 {
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 437px;
+    height: 26px;
+    overflow: hidden;
+}
+.mencen1 h5 {
+    width: 80px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 12px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+.mencen1 h5 a {
+    color: #FFF;
+}
+.mencen1 p {
+    width: 80px;
+    float: right;
+    text-align: right;
+}
+.mencen1 p a {
+    color: #4c4c4c;
+    padding-right: 2px;
+}
+.shte {
+    width: 437px;
+    height: 130px;
+    overflow: hidden;
+    margin-top: 13px;
+}
+.shte .tit {
+    height: 25px;
+    width: 437px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    color: #333;
+}
+.shte .tit a {
+    color: #333;
+}
+.shte .tit a:hover {
+    color: #C00;
+}
+.shte .left {
+    width: 136px;
+    float: left;
+    margin-right: 12px;
+}
+.shte .right {
+    width: 288px;
+    float: left;
+}
+.shte .cont {
+    width: 288px;
+    height: 72px;
+    overflow: hidden;
+    color: #787777;
+    line-height: 24px;
+    margin-top: -4px;
+}
+.shte .cont a {
+    color: #9c0000;
+}
+.shte .time {
+    height: 20px;
+    margin-top: 9px;
+    color: #999;
+    background: url(../img/time1.jpg) no-repeat 0 2px;
+    padding: 0px 0 0 23px;
+    font-size: 14px;
+    line-height: normal;
+}
+.shnews {
+    width: 437px;
+    height: 120px;
+    overflow: hidden;
+}
+.shnews ul li {
+    height: 25px;
+    overflow: hidden;
+    line-height: 25px;
+    vertical-align: top;
+    font-size: 14px;
+    background: url(../img/list1.jpg) no-repeat left center;
+    padding-left: 12px;
+}
+.shnews ul li a:hover {
+    color: #C00;
+}
+.shnews ul li a {
+    color: #333;
+    display: block;
+    width: 325px;
+    float: left;
+}
+.shnews ul li span {
+    width: 80px;
+    display: block;
+    text-align: right;
+    float: right;
+    color: #333;
+}

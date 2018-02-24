@@ -222,6 +222,7 @@
     <Content Include="Content\img\list1.jpg" />
     <Content Include="Content\img\menubg1.jpg" />
     <Content Include="Content\img\navbg.jpg" />
+    <Content Include="Content\img\time1.jpg" />
     <Content Include="Content\self\index.css" />
     <Content Include="Content\self\layout.css" />
     <Content Include="favicon.ico" />
