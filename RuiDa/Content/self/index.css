@@ -446,3 +446,40 @@ dd {
 .kenews ul li a:hover {
     color: #C00;
 }
+
+/*右侧栏*/
+.m-right {
+    width: 217px;
+    float: left;
+}
+.weibo{
+    height: 300px;
+    width: 217px;
+    overflow: hidden;
+}
+.weihei {
+    height: 122px;
+    overflow: hidden;
+    margin-top: 17px;
+}
+.weilef {
+    width: 106px;
+    float: left;
+}
+.weirig {
+    width: 100px;
+    float: right;
+    font-size: 14px;
+}
+.weirig p {
+    padding-top: 22px;
+    line-height: 20px;
+    color: #333;
+}
+.bordb {
+    border-bottom: #e4e3e3 1px dashed;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+    width: 217px;
+}
