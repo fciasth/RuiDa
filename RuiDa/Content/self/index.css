@@ -8,6 +8,12 @@
 a {
     text-decoration: none;
 }
+dt {
+    display: block;
+}
+dd {
+    display: block;
+}
 /*左侧栏样式*/
 .m-left {
     width: 286px;
@@ -164,6 +170,11 @@ a {
     width: 286px;
     display: block;
 }
+.inlone .cont dl dt {
+    width: 95px;
+    padding: 4px 10px 0 0;
+    float: left;
+}
 .inlone .cont dl dt img {
     width: 95px;
     height: 66px;
@@ -172,4 +183,45 @@ a {
 .inlone .cont {
     height: 70px;
     overflow: hidden;
+}
+.inlone .cont dl {
+    height: 110px;
+    overflow: hidden;
+}
+.inlone .cont dl dd {
+    width: 180px;
+    height: 66px;
+    overflow: hidden;
+    float: left;
+    color: #787777;
+    line-height: 24px;
+}
+.inlone .cont dl dd a:hover {
+    color: #F60;
+}
+.inlone .cont dl dd a {
+    color: #9c0000;
+}
+
+.jiaonews {
+    width: 286px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.jiaonews ul li {
+    width: 274px;
+    height: 24px;
+    overflow: hidden;
+    line-height: 24px;
+    vertical-align: top;
+    font-size: 14px;
+    background: url(../img/list1.jpg) no-repeat left center;
+    padding-left: 12px;
+}
+.jiaonews ul li a {
+    color: #333;
+}
+.jiaonews ul li a:hover {
+    color: #C00;
 }
