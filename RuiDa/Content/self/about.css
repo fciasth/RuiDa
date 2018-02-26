@@ -1,1 +1,8 @@
-﻿
+﻿main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../images/emainbg.jpg) no-repeat;
+    margin-top: 16px;
+    padding-top: 30px;
+}
