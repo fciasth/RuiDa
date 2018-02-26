@@ -253,6 +253,7 @@ dd {
 .mencen1 h5 a {
     color: #FFF;
 }
+
 .mencen1 p {
     width: 80px;
     float: right;
@@ -482,4 +483,72 @@ dd {
     clear: both;
     overflow: hidden;
     width: 217px;
+}
+.notice {
+    height: 276px;
+    overflow: hidden;
+    clear: both;
+    margin-top: 18px;
+}
+.notice {
+
+}
+.notice .mencen1{
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 217px;
+    height: 26px;
+    overflow: hidden;
+}
+.gongnews {
+    width: 217px;
+    height: 230px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.gongnews ul li {
+    height: 25px;
+    overflow: hidden;
+    line-height: 25px;
+    vertical-align: top;
+    font-size: 14px;
+    background: url(../img/list1.jpg) no-repeat left center;
+    padding-left: 12px;
+}
+.gongnews ul li a {
+    color: #333;
+    display: block;
+}
+.gongnews ul li a:hover{
+    color: #C00;
+}
+.thd {
+    width: 217px;
+    clear: both;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.benpaih {
+    width: 217px;
+    height: 305px;
+    background: url(../img/paibg.jpg) no-repeat;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.benpaih ul {
+    width: 200px;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+.benpaih ul li {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+}
+.benpaih ul li a {
+    color: #333;
+}
+.benpaih ul li a:hover{
+    color: #C00;
 }
