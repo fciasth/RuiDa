@@ -216,7 +216,16 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\elemenu1.jpg" />
+    <Content Include="Content\img\elemenu2.jpg" />
+    <Content Include="Content\img\elemenu3.jpg" />
     <Content Include="Content\img\emainbg.jpg" />
+    <Content Include="Content\img\emenubg.jpg" />
+    <Content Include="Content\img\footlbg.jpg" />
+    <Content Include="Content\img\inpbg.jpg" />
+    <Content Include="Content\img\mainbotbg.jpg" />
+    <Content Include="Content\img\mainmibg.jpg" />
+    <Content Include="Content\img\navline.jpg" />
     <Content Include="Content\img\paibg.jpg" />
     <Content Include="Content\img\time.jpg" />
     <Content Include="Content\img\biao1.jpg" />
@@ -225,6 +234,7 @@
     <Content Include="Content\img\menubg1.jpg" />
     <Content Include="Content\img\navbg.jpg" />
     <Content Include="Content\img\time1.jpg" />
+    <Content Include="Content\img\topbg.jpg" />
     <Content Include="Content\self\about.css" />
     <Content Include="Content\self\index.css" />
     <Content Include="Content\self\layout.css" />
