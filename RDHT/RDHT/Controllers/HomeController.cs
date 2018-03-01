@@ -1,11 +1,11 @@
-﻿using RuiDa1.Tools;
+﻿using RDHT.Tools;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace RuiDa1.Controllers
+namespace RDHT.Controllers
 {
    
     public class HomeController : Controller
