@@ -1,17 +1,113 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Home Page";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+@section Style{
+    @Styles.Render("~/Content/self/about.css")
+}
+@section ContentBody{
+    <main>
+        <div class="emainmi">
+            <div id="eleft">
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+                <div class="elefme">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+                    <dl>
+
+                        <dt><p>关于机构</p></dt>
+
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/jgjj/" class="cur">机构简介</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/yjylsh/">研究院理事会</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/zzjg/">组织架构</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/xswyh/">学术委员会</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/yewu/">业务范围</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/gyjg/nsjg/">内设机构</a></dd>
+                        <dd><a href="http://www.newsupplyecon.org/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=36">联系我们</a></dd>
+
+                    </dl>
+
+                </div>
+
+                <div id="xinbo">
+                    <div class="menrig1">
+                        <h5>微信&nbsp;微博</h5>
+                    </div>
+                    <div class="weihei">
+                        <div class="weilef"><img src="http://www.newsupplyecon.org/uploadfile/2014/1220/20141220093045164.jpg" width="106" height="106"></div>
+                        <div class="weirig">
+                            <p>欢迎关注华夏新供给经济学研究院官方微信</p>
+                        </div>
+                    </div>
+                    <div class="bordb"></div>
+                    <div class="weihei">
+                        <div class="weilef"><img src="http://www.newsupplyecon.org/uploadfile/2014/1220/20141220092915340.jpg" width="106" height="106"></div>
+                        <div class="weirig">
+                            <h5>华夏新供给经济学研究院</h5>
+                            <h4><a href="http://weibo.com/u/3271100091"><img src="http://www.newsupplyecon.org/statics/images/weibo.png" style="width: 64px; height: 22px;" width="200"></a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!--xinbo end-->
+
+                <div id="benpai">
+                    <div class="menrig1">
+                        <h5>本月排行</h5>
+                    </div>
+                    <div class="benpaih">
+                        <ul>
+
+
+                            <li><a href="http://www.newsupplyecon.org/2015/syldt_0120/170.html">贾康：经济学的“新框架...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2015/xyhd_1128/269.html">贾康:"新供给"新在哪里</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2015/mxzs_1121/263.html">2015年11月份民生新供给...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2014/mxzs_1218/75.html">民新指数简介</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2015/mxzs_1021/252.html">2015年10月份民生新供给...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2016/mxzs_0721/410.html">关于民新指数暂停发布的公告</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2015/mxzs_1021/251.html">2015年10月份民生新供给...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2015/zlyz_1112/256.html">徐林：十三五规划建议贯...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2016/mxzs_0521/380.html">2016年5月份民生新供给中...</a></li>
+
+                            <li><a href="http://www.newsupplyecon.org/2016/mxzs_0421/377.html">2016年4月民生新供给中小...</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!--benpai end-->
+
+            </div>
+            <div id="eright">
+                <div class="erigmenu">
+                    <h5>机构简介</h5>
+                    <p>您当前的位置：<a href="/">首页</a> &gt; <a href="http://www.newsupplyecon.org/gyjg/jgjj/">关于机构</a> &gt; 机构简介</p>
+                </div>
+                <div class="econtent">
+                    <p style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: 微软雅黑, YaHei, 宋体; font-size: 14px; line-height: 26.6000003814697px; text-align: justify;"><img src="http://www.newsupplyecon.org/uploadfile/2014/1221/20141221122221176.jpg" style="border: none; float: left; padding-right: 15px; width: 72px; height: 130px;">华夏新供给经济学研究院是由贾康、白重恩、王庆等12位学者发起设立、经政府管理部门批准成立于2013年9月的新型民间智库组织，现任理事长为中国民生银行董事长洪崎先生，监事长为蚂蚁金服集团总裁井贤栋先生，院长为华软资本管理集团股份有限公司董事长王广宇先生，首席经济学家为贾康先生。按中央《关于加强中国特色新型智库建设的意见》的精神，研究院秉承“求真务实融合古今，开放包容贯通中西”的全球视野和时代责任感，以“责任、专业、团结、创新”为文化，以“人才是核心，研究是基础，社会效益是追求”为理念，践行勤勉奋进的“梅花精神”和开放包容的“牡丹精神”，打造学习型组织和创新型团队。研究院通过构建跨界合作的“中国新供给经济学50人论坛”和“中国养老金融50人论坛(CAFF50)”，努力建设具有高学术品味和国际影响力的中国特色新型智库。已有百位经济学家、实业家、金融界精英和媒体人士加盟的新供给研究院的研究团队，通过举办新供给双周学术研讨会、季度宏观经济形势分析会、《中国2049战略》圆桌、新供给金融圆桌以及新供给年度重点课题研究等活动，致力于建设特色鲜明、制度创新的高端智库，为中国改革开放予以理论阐释和提出积极建言，持续推动中国经济改革和发展实践，为中国和世界经济繁荣和社会进步竭尽所能。</p>
+                    <p style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: 微软雅黑, YaHei, 宋体; font-size: 14px; line-height: 26.6000003814697px; text-align: justify;">&nbsp;</p>
+                    <p style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: 微软雅黑, YaHei, 宋体; font-size: 14px; line-height: 26.6000003814697px; text-align: justify;">&nbsp;</p>
+                    <div style="text-align: center;">
+                        <span style="font-size:16px;"><strong>China Academy of New Supply-side Economics</strong></span><br>
+                        &nbsp;
+                    </div>
+                    <div style="text-align: center;">
+                        <span style="font-size:14px;"><strong>Introduction</strong></span><br>
+                        &nbsp;
+                    </div>
+                    <div style="text-align: justify;"><span style="font-size:14px;">China Academy of New Supply-side Economics is a new civil think tank organization established in September, 2013 by 12 scholars including Jia Kang，Bai Chongen and Wang Qing etc., and approved by government administration department，with President of China Minsheng Banking Corp. Ltd. Hong Qi as current Director-General, President of Ant Financial Services Group Jing Xiandong as Supervisor, Chairman of the Board of China Soft Capital Wang Guangyu as President and Jia Kang as Chief Economist. In accordance with the spirits of the <em>Opinions on Strengthening the Construction of A New Think Tank with Chinese characteristics</em>, the Academy adheres to the spirits of ＂truth-seeking&nbsp; and pragmatism, integration of the ancient and the present, openness and tolerance, and combination of Chinese and western cultures＂, takes basis on global view and the sense of time responsibility, holds the culture of ＂responsibility, professionalism, teamwork and innovation", sticks to the philosophy of "talent is the core, research is the base and social benefits is the pursuit" and practices diligent and endeavored "plum flower spirit" as well as open and tolerant "peony spirit". The Academy makes efforts to establish a new think tank with highly academic atmospheres and international influence and also Chinese characteristics by means of setting up a cross-discipline cooperative "China New Supply-side Economists 50 Forum" and " China Ageing Finance Forum". Currently, hundreds of economists, industrialists, financial experts and media personnel have joined the research group of China Academy of New Supply-side Economics. Organize new supply-side biweekly academic symposium, quarterly macro economic analysis workshop, <em>China 2049 Strategy</em> round table, new-supply financial round table and annual new supply-side key research programs, etc., and devote to build a high-end think tank with distinctive features and innovative system so as to theoretically explain China’s opening up and reform and actively put forward policy suggestions, continuously promote China’s economy reform and development practice and make great efforts for China and the world’s economic prosperity and social progress.</span></div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+}
+@section Script{
+    @Scripts.Render("~/Scripts/self/about.js")
+}
