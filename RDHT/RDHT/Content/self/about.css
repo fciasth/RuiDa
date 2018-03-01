@@ -1,0 +1,211 @@
+﻿main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../img/emainbg.jpg) no-repeat;
+    margin-top: 16px;
+    padding-top: 30px;
+}
+.emainmi {
+    background: url(../img/mainmibg.jpg) repeat-y;
+    width: 1000px;
+    overflow: hidden;
+}
+#eleft {
+    width: 217px;
+    float: left;
+    margin-right: 30px;
+    padding-left: 19px;
+    overflow: hidden;
+}
+.elefme dl dt {
+    background: url(../img/elemenu1.jpg) no-repeat;
+    width: 217px;
+    height: 33px;
+    overflow: hidden;
+    line-height: 33px;
+    font-size: 18px;
+}
+.elefme dl dt p {
+    padding-left: 35px;
+    color: #FFF;
+}
+.elefme dl dd {
+    background: url(../img/elemenu3.jpg) no-repeat;
+    width: 217px;
+    height: 31px;
+    overflow: hidden;
+    line-height: 31px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.elefme dl dd a.cur {
+    background: url(../img/elemenu2.jpg) no-repeat;
+    color: #cd0000;
+}
+.elefme dl dd a {
+    padding-left: 35px;
+    display: block;
+    color: #333;
+}
+.elefme {
+    overflow: hidden;
+    width: 217px;
+    font-family: "微软雅黑";
+    padding-bottom: 25px;
+}#xinbo {
+    height: 300px;
+    width: 217px;
+    overflow: hidden;
+}
+ .menrig1 {
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 217px;
+    height: 26px;
+    overflow: hidden;
+}
+ .menrig1 h5 {
+    width: 80px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+ .weihei {
+    height: 122px;
+    overflow: hidden;
+    margin-top: 17px;
+}
+ .weilef {
+    width: 106px;
+    float: left;
+}
+ .weirig {
+    width: 100px;
+    float: right;
+    font-size: 14px;
+}
+ .weirig p {
+    padding-top: 22px;
+    line-height: 20px;
+    color: #333;
+}
+ .bordb {
+    border-bottom: #e4e3e3 1px dashed;
+    height: 1px;
+    clear: both;
+    overflow: hidden;
+    width: 217px;
+}
+ #benpai {
+    width: 217px;
+    clear: both;
+    margin-top: 14px;
+    overflow: hidden;
+}
+ .menrig1 {
+    background: url(../img/menubg1.jpg) no-repeat;
+    width: 217px;
+    height: 26px;
+    overflow: hidden;
+}
+ .menrig1 h5 {
+    width: 80px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+ .benpaih {
+    width: 217px;
+    height: 305px;
+    background: url(../img/paibg.jpg) no-repeat;
+    overflow: hidden;
+    margin-top: 5px;
+}
+ .benpaih ul {
+    width: 200px;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+ .benpaih ul li {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+}
+ .benpaih ul li a {
+    color: #333;
+}
+ #eright {
+    width: 712px;
+    float: left;
+    overflow: hidden;
+}
+ .erigmenu {
+    background: url(../img/emenubg.jpg) no-repeat;
+    width: 712px;
+    height: 44px;
+    overflow: hidden;
+}
+ .erigmenu h5 {
+    width: 250px;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #850101;
+    padding-left: 20px;
+    font-weight: normal;
+    line-height: 24px;
+}
+ .erigmenu p {
+    width: 400px;
+    float: right;
+    text-align: right;
+    color: #999;
+    padding-top: 8px;
+}
+ .erigmenu p a {
+    color: #999;
+}
+ .econtent {
+    line-height: 190%;
+    font-size: 14px;
+    overflow: hidden;
+    color: #333;
+    padding: 15px 0 30px 0;
+}
+ .econtent p{
+    margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: 微软雅黑, YaHei, 宋体; font-size: 14px; line-height: 26.6000003814697px; text-align: justify;
+}
+ .econtent p img{
+     border: none;
+    float: left;
+    padding-right: 15px;
+    width: 72px;
+    height: 130px;
+}
+ .econtent div{
+    text-align: center;
+}
+ .econtent div span{
+    font-size:16px;
+}
+ .emainbot {
+    background: url(../img/mainbotbg.jpg) no-repeat;
+    width: 1000px;
+    height: 8px;
+    overflow: hidden;
+}
+ .hei35 {
+    height: 35px;
+    overflow: hidden;
+    clear: both;
+}
