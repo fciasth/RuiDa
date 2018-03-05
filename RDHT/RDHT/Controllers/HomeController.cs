@@ -13,6 +13,8 @@ namespace RDHT.Controllers
         private SqlDB db = new SqlDB();
         public ActionResult Index()
         {
+            string _sql = string.Format(@"select  * from  news"); 
+
             return View();
         }
 

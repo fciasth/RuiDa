@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -139,6 +140,25 @@ namespace RDHT.Tools
             }
 
         }
+        public static SqlDataReader ExecuteReader(string connectionString, CommandType cmdType, string cmdText, params SqlParameter[] commandParameters)
+        {
+            SqlCommand cmd = new SqlCommand();
+            SqlConnection conn = new SqlConnection(connectionString);
+            try
+            {
+                //PrepareCommand(cmd, conn, null, cmdType, cmdText, commandParameters);
+                SqlDataReader rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                cmd.Parameters.Clear();
+                return rdr;
+            }
+            catch
+            {
+                //Close(conn);
+                //Dispose(conn);
+                throw;
+            }
+        }
 
     }
+
 }
