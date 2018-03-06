@@ -13,7 +13,9 @@ namespace RDHT.Controllers
         private SqlDB db = new SqlDB();
         public ActionResult Index()
         {
-            string _sql = string.Format(@"select  * from  news"); 
+            var dbContext = new EFDbContext();
+            ViewBag.News = dbContext.news.ToList();
+            
 
             return View();
         }

@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace RDHT.Models
+namespace RDHT.Entity
 {
-    public class @News
+    public class News
     {
-        public Guid news_guid { get; set; }
-        public string title { get; set; }
-        public DateTime creat_time { get; set; }
-
+        public Guid news_guid { set; get; }
+        public string title { set; get; }
+        public DateTime creat_time { set; get; }
         public string author { set; get; }
-
         public string news_source { set; get; }
         public string context { set; get; }
     }
